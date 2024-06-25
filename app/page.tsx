@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-24 gap-10">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm">
-        <div className="flex h-48 w-full items-end justify-center">
+        <div className="flex h-52 w-full items-end justify-center">
           <Image
             src="/beta.png"
             alt="Beta Logo"
