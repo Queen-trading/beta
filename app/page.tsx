@@ -19,26 +19,19 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="text-center">
-        <h1 className="text-9xl font-bold text-white">
-          Beta
-        </h1>
-      </div>
-      
-      <div className=" z-20 text-center beta-container">
-        <p className="text-4xl font-bold text-white">
-          Beta Token Post-Launch
+      <div className="text-center flex justify-center -space-x-1">
+        <p className="z-0 text-9xl font-bold text-white flex items-center justify-center pb-9">
+          B
         </p>
-        <div className="beta-middle w-auto h-auto">
-          <Image 
-          className="beta-image"
-          src="/timeline.png" 
-          alt="timeline"
-          width={940}
-          height={1050}
-          priority
-          />
-        </div>
+        <p className="z-10 text-7xl font-bold text-white flex items-center justify-center">
+          E
+        </p>
+        <p className="z-20 text-7xl font-bold text-white flex items-center justify-center">
+          T
+        </p>
+        <p className="z-30 text-7xl font-bold text-white flex items-center justify-center">
+          A
+        </p>
       </div>
 
       <div className=" text-center font-semibold text-white">
@@ -51,9 +44,33 @@ export default function Home() {
       <p> Liquidity Burned.  </p>
       <p> No Transaction Fees. No Tax.</p>
       <br/>
-      <p>Beta Token, essential to the Alpha ecosystem, translates activity into value. </p>                          
+      <p>Beta Token, essential to the Alpha ecosystem, efficiently converts activity into value.</p>                          
       <p>It initiates our journey to reshape finance and ensure fair wealth distribution.</p>
-      <p>Our perpetual, immutable system highlights DeFi's potential and rewards devoted members</p>
+      <p>Our perpetual, immutable system highlights DeFi's potential and rewards devoted and active participants.</p>
+      </div>
+
+      <br/>
+      <div className="text-center beta-container">
+        <a
+          href="/timeline.pdf"
+          className="text-[20px] text-white"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <p className="text-4xl font-bold text-white">
+            TimeLine
+          </p>
+        </a>
+        {/* <div className="beta-middle w-auto h-auto">
+          <Image 
+          className="beta-image"
+          src="/timeline.png" 
+          alt="timeline"
+          width={940}
+          height={1050}
+          priority
+          />
+        </div> */}
       </div>
 
       <div className=" flex flex-col items-center gap-6 pt-10">
