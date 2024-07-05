@@ -63,7 +63,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="text-center bg-green-500 rounded-lg px-[50px] py-[10px]">
+        <div className="text-center bg-green-500 rounded-lg px-[50px] py-[10px] w-60">
         <a
           href="/whitepaper.pdf"
           className="text-[20px] text-white"
@@ -76,17 +76,15 @@ export default function Home() {
         </a>
         </div>
 
-        <div className="grid grid-cols-2 gap-12">
-        <div className="col-span-1 text-center bg-green-500 rounded-lg px-[10px] py-[10px]">
+        <div className="text-center bg-green-500 rounded-lg px-[10px] py-[10px] w-60">
           <a href="https://raydium.io/swap" className="text-[20px] text-white" target="_blank" rel="noopener noreferrer">
             <p className="font-semibold text-center">
               Buy Now{" "}
             </p>
           </a>
         </div>
-        <WalletMultiButton className="col-span-1 font-semibold text-center"  style={{backgroundColor: 'rgb(34 197 94)', color: 'white', borderRadius: '8px', fontSize: '20px'}} />
+        {/* <WalletMultiButton className="col-span-1 font-semibold text-center"  style={{backgroundColor: 'rgb(34 197 94)', color: 'white', borderRadius: '8px', fontSize: '20px'}} /> */}
         </div>
-      </div>
 
     </main>
   );
