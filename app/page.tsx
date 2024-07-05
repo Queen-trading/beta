@@ -1,4 +1,8 @@
+"use client";
+
 import Image from "next/image";
+
+import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 
 export default function Home() {
   return (
@@ -25,7 +29,7 @@ export default function Home() {
         <p className="text-4xl font-bold text-white">
           Beta Token Post-Launch
         </p>
-        <div className="beta-middle">
+        <div className="beta-middle w-auto h-auto">
           <Image 
           className="beta-image"
           src="/timeline.png" 
@@ -72,17 +76,15 @@ export default function Home() {
         </a>
         </div>
 
-        <div className="text-center bg-green-500 rounded-lg px-[50px] py-[10px]">
-        <a
-          href="https://raydium.io/swap"
-          className="text-[20px] text-white"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <p className="font-semibold">
-            Buy Now{" "}
-          </p>
-        </a>
+        <div className="grid grid-cols-2 gap-12">
+        <div className="col-span-1 text-center bg-green-500 rounded-lg px-[10px] py-[10px]">
+          <a href="https://raydium.io/swap" className="text-[20px] text-white" target="_blank" rel="noopener noreferrer">
+            <p className="font-semibold text-center">
+              Buy Now{" "}
+            </p>
+          </a>
+        </div>
+        <WalletMultiButton className="col-span-1 font-semibold text-center"  style={{backgroundColor: 'rgb(34 197 94)', color: 'white', borderRadius: '8px', fontSize: '20px'}} />
         </div>
       </div>
 
