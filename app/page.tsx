@@ -34,7 +34,7 @@ export default function Home() {
         </p>
       </div>
 
-      <div className=" text-center font-semibold text-white">
+      <div className=" text-center font-semibold text-white gap-1">
       <p> NO RUGS. NO GAMES. NO BULLSHIT.</p>
       <p> ALL COMMUNITY EFFORT.</p>
       <p> THIS IS JUST THE BEGINNING.</p>
@@ -50,6 +50,7 @@ export default function Home() {
       </div>
 
       <br/>
+      <br/>
       <div className="text-center  bg-green-500 rounded-lg px-[10px] py-[10px] w-60">
         <a
           href="/timeline.pdf"
@@ -58,7 +59,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <p className="font-bold text-white">
-            TimeLine
+            Timeline
           </p>
         </a>
         {/* <div className="beta-middle w-auto h-auto">
@@ -72,7 +73,6 @@ export default function Home() {
           />
         </div> */}
       </div>
-
       <div className=" flex flex-col items-center gap-6 pt-10">
         <div className=" flex flex-col items-center text-center lg:mb-0 bg-green-500 rounded-lg">
           <p className="text-2xl font-semibold px-[20px] py-3 text-white">
@@ -88,7 +88,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <p className="font-semibold">
-            WhitePaper{" "}
+            White Paper{" "}
           </p>
         </a>
         </div>
