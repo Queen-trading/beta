@@ -50,14 +50,14 @@ export default function Home() {
       </div>
 
       <br/>
-      <div className="text-center beta-container">
+      <div className="text-center  bg-green-500 rounded-lg px-[10px] py-[10px] w-60">
         <a
           href="/timeline.pdf"
           className="text-[20px] text-white"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <p className="text-4xl font-bold text-white">
+          <p className="font-bold text-white">
             TimeLine
           </p>
         </a>
@@ -80,7 +80,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="text-center bg-green-500 rounded-lg px-[50px] py-[10px] w-60">
+        <div className="text-center bg-green-500 rounded-lg px-[10px] py-[10px] w-60">
         <a
           href="/whitepaper.pdf"
           className="text-[20px] text-white"
