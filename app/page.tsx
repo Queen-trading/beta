@@ -6,7 +6,8 @@ import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-24 gap-1">
+    <main className="flex min-h-screen flex-col items-center p-24 gap-10">
+      <div className="flex flex-col items-center">
       <div className="z-0 w-full max-w-5xl items-center justify-between font-mono text-sm">
         <div className="flex h-52 w-full items-end justify-center">
           <Image
@@ -18,7 +19,6 @@ export default function Home() {
           />
         </div>
       </div>
-
       <div className="text-center flex justify-center -space-x-1">
         <p className="z-0 text-9xl font-bold text-white flex items-center justify-center pb-9">
           B
@@ -33,7 +33,7 @@ export default function Home() {
           A
         </p>
       </div>
-
+      </div>
       <div className="flex flex-col text-center font-semibold text-white gap-8">
       <div>
       <p> NO RUGS. NO GAMES. NO BULLSHIT.</p>
@@ -52,9 +52,8 @@ export default function Home() {
       <p>Our perpetual, immutable system highlights DeFi's potential and rewards devoted and active participants.</p>
       </div>
       </div>
-
-      <br/>
-      <br/>
+      
+      <div className="flex flex-col items-center">
       <div className="text-center  bg-green-500 rounded-lg px-[10px] py-[10px] w-60">
         <a
           href="/timeline.pdf"
@@ -105,7 +104,8 @@ export default function Home() {
           </a>
         </div>
         {/* <WalletMultiButton className="col-span-1 font-semibold text-center"  style={{backgroundColor: 'rgb(34 197 94)', color: 'white', borderRadius: '8px', fontSize: '20px'}} /> */}
-        </div>
+      </div>
+      </div>
 
     </main>
   );
