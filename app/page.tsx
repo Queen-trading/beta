@@ -34,19 +34,23 @@ export default function Home() {
         </p>
       </div>
 
-      <div className=" text-center font-semibold text-white gap-1">
+      <div className="flex flex-col text-center font-semibold text-white gap-8">
+      <div>
       <p> NO RUGS. NO GAMES. NO BULLSHIT.</p>
       <p> ALL COMMUNITY EFFORT.</p>
       <p> THIS IS JUST THE BEGINNING.</p>
-      <br/>
+      </div>
+      <div>
       <p> Renounced Mint Authority.</p>
       <p> Contract Renounced. </p>
       <p> Liquidity Burned.  </p>
       <p> No Transaction Fees. No Tax.</p>
-      <br/>
+      </div>
+      <div>
       <p>Beta Token, essential to the Alpha ecosystem, efficiently converts activity into value.</p>                          
       <p>It initiates our journey to reshape finance and ensure fair wealth distribution.</p>
       <p>Our perpetual, immutable system highlights DeFi's potential and rewards devoted and active participants.</p>
+      </div>
       </div>
 
       <br/>
@@ -73,7 +77,7 @@ export default function Home() {
           />
         </div> */}
       </div>
-      <div className=" flex flex-col items-center gap-6 pt-10">
+      <div className=" flex flex-col items-center gap-10 pt-10">
         <div className=" flex flex-col items-center text-center lg:mb-0 bg-green-500 rounded-lg">
           <p className="text-2xl font-semibold px-[20px] py-3 text-white">
               0xca530408c3e552b020a2300debc7bd18820fb42f
