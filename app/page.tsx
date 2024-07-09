@@ -77,8 +77,8 @@ export default function Home() {
         </div> */}
       </div>
       <div className=" flex flex-col items-center gap-10 pt-10">
-        <div className=" flex flex-col items-center text-center lg:mb-0 bg-green-500 rounded-lg">
-          <p className="text-2xl font-semibold px-[20px] py-3 text-red-600">
+        <div className=" flex flex-col items-center text-center lg:mb-0 bg-black rounded-lg">
+          <p className="text-2xl font-extrabold px-[20px] py-3 text-red-600">
               STEALTH LAUNCH - FAIR LAUNCH - MORE INFO TBA
           </p>
         </div>
